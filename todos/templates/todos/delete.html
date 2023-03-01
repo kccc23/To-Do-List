@@ -8,11 +8,13 @@
 </head>
 <body>
     <main>
-        <h1>Are you sure?</h1>
-        <form method="post">
-            {% csrf_token %}
-            <button>Delete</button>
-        </form>
+        <div>
+            <h1>Are you sure?</h1>
+            <form method="post">
+                {% csrf_token %}
+                <button>Delete</button>
+            </form>
+        </div>
     </main>
 </body>
 </html>
