@@ -15,6 +15,11 @@
                     <a href="{% url 'todo_list_update' todo_list.id %}">Edit</a>
                 </p>
             </div>
+            <div>
+                <p>
+                    <a href="{% url 'todo_list_delete' todo_list.id %}">Delete</a>
+                </p>
+            </div>
             <h2>Tasks</h2>
             <table>
                 <thead>
